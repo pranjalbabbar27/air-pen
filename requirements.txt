@@ -1,0 +1,9 @@
+# Air Pen dependencies.
+# Use Python 3.9 - 3.12 (MediaPipe does not publish wheels for newer Python yet).
+# The MediaPipe range below is limited to releases that still include the
+# classic "mp.solutions.hands" API used in main.py.
+
+
+mediapipe==0.10.21
+opencv-python>=4.8,<4.12
+numpy>=1.26.0,<2
